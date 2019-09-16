@@ -1,5 +1,5 @@
 <?php
-	$usuario = $_GET['tipo_usuario'];
-	$navegador = $_GET['navegador'];
+	$usuario = $_GET['usuario_tipo'];
+	$navegador = $_GET['navegador_web'];
 	echo "El usuario es " . $usuario . " y tiene el navegador " . $navegador;
 ?>
